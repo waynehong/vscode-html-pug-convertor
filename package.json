@@ -2,7 +2,7 @@
   "name": "vscode-html-pug-convertor",
   "displayName": "htmlPugConvertor",
   "description": "html pug convertor VSCode extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icon": "icon.png",
   "bugs": {
     "url": "https://github.com/waynehong/vscode-html-pug-convertor/issues",
