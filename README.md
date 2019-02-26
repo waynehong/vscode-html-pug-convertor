@@ -19,9 +19,7 @@ Marketplace](https://marketplace.visualstudio.com/items?itemName=waynehong.vscod
 
 1. Select the html or pug.
 2. Hit <kbd>⌘ Command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd> / <kbd>Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>p</kbd>
-3. Run `html2pug: Transform` or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> .
-4. Run `pug2html: Transform` or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> .
-
+3. Run `html2pug: Transform` or Run `pug2html: Transform`.
 
 ## Built With
 * [html2pug](https://github.com/izolate/html2pug) - html to pug engine
