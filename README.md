@@ -8,12 +8,12 @@
 ## Features
 
 * Format selection.
-* Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd> / <kbd>⌘ Command</kbd> + <kbd>Alt</kbd> + <kbd>p</kbd>
+* Transform html to pug or pug to html
 
 ## Installation
 
 Install this extension from the [VSCode
-Marketplace](https://marketplace.visualstudio.com/items?itemName=dbalas.vscode-html2pug)
+Marketplace](https://marketplace.visualstudio.com/items?itemName=waynehong.vscode-html-pug-convertor)
 
 ## Usage
 
@@ -25,6 +25,12 @@ Marketplace](https://marketplace.visualstudio.com/items?itemName=dbalas.vscode-h
 
 ## Built With
 * [html2pug](https://github.com/izolate/html2pug) - html to pug engine
+* [pug](https://www.npmjs.com/package/pug) - pug to html engine
+
+
+## Acknowledgements
+
+[@dbalas](https://github.com/dbalas) for having created [vscode-html2pug](https://github.com/dbalas/vscode-html2pug).
 
 ## License
 
