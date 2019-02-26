@@ -1,0 +1,66 @@
+{
+  "name": "vscode-html-pug-convertor",
+  "displayName": "htmlPugConvertor",
+  "description": "html pug convertor VSCode extension",
+  "version": "0.1.0",
+  "icon": "icon.png",
+  "bugs": {
+    "url": "https://github.com/waynehong/vscode-html-pug-convertor/issues",
+    "email": "377294241@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waynehong/vscode-html-pug-convertor"
+  },
+  "license": "MIT",
+  "publisher": "waynehong",
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "tags": [
+    "vscode",
+    "jade",
+    "pug",
+    "html2pug",
+    "html2jade",
+    "pug2html",
+    "jade2html"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.transformHtmlToPug",
+    "onCommand:extension.transformPugToHtml"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.transformHtmlToPug",
+        "title": "html2pug: Transform"
+      },
+      {
+        "command": "extension.transformPugToHtml",
+        "title": "pug2html: Transform"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.4",
+    "eslint": "^5.5.0",
+    "typescript": "^3.0.3",
+    "vscode": "^1.1.21"
+  },
+  "dependencies": {
+    "html2jade": "^0.8.6",
+    "pug": "^2.0.3"
+  }
+}
